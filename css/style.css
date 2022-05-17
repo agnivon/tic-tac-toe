@@ -1,0 +1,52 @@
+html, body{
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid{
+    flex: 1 0 auto;
+}
+.main-box{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box ul{
+    font-size: 100%;
+}
+
+.box{
+    font-family: 'Permanent Marker', cursive;
+    background-color: #ebebeb;
+    font-size: 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #585858;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls a{
+    font-size: 100%;
+}
+
+.fa-heart{
+    color: red;
+}
+
+footer{
+    margin-top: 20px;
+    flex-shrink: 0px;
+    padding: 20px 0px 20px 0px;
+    color: #ffffff;
+    background-color: rgba(34, 39, 39, 0.9);
+    font-size: 1.15em;
+}
